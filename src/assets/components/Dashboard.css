@@ -1,0 +1,154 @@
+.dashboard {
+  padding: 15px;
+}
+
+.body {
+  width: 90%;
+  margin-left: 4rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 6px;
+}
+
+.header-icon {
+  font-size: 24px;
+}
+
+.logout-button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #e63939;
+}
+
+.actions {
+  margin: 20px 0;
+}
+
+.add-task-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+.search-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.search-input {
+  flex: 1; /* Takes available space */
+  max-width: 300px; /* Limits the maximum width of the input */
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: auto; /* Ensures it doesn't push the sort dropdown */
+}
+
+.sort-select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.task-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.task-column {
+  flex: 1;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.column-title {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px 4px 0 0;
+}
+
+.task-card {
+  background-color: #e6f2ff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #e63939;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.view-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #0056b3;
+}
